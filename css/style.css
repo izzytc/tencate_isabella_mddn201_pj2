@@ -1,0 +1,81 @@
+body {
+   
+}
+
+
+.btn {
+    border-radius: 0px;
+}
+.carousel-control {
+	color:#000000;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+
+}
+
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+    font-size: 100px;
+    color: pink;
+}
+
+.carousel-indicators li {
+border-radius: 0px;
+ background: pink;
+
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: left !important;
+}
+
+.navbar {
+
+    background-color: pink;
+    font-size: 30px
+
+
+}
+ul.nav a:hover { color: blue !important;
+
+}
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.navbar-nav > li{
+  margin-left:30px;
+  margin-right:20px;
+}
+
+body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:900px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:100px;color: #fff; background-color: #009688;}
+
+}
+
+h1 {
+	width: 100px;
+}
+
+.pagination{
+    display:table;
+    margin:0 auto;
+    border-color: pink;
+    background-color: pink;
+
+
+}
+
+
