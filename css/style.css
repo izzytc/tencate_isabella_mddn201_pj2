@@ -1,4 +1,6 @@
 body {
+	font-family: 'Open Sans Condensed', sans-serif;
+
    
 }
 
@@ -36,12 +38,14 @@ border-radius: 0px;
 
 .navbar {
 
-    background-color: pink;
-    font-size: 30px
-
+    background-color: #b98be9;
+    border-color: #b98be9;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Montserrat Alternates', sans-serif;
 
 }
-ul.nav a:hover { color: blue !important;
+ul.nav a:hover { color: black !important;
 
 }
 .navbar-nav > li{
@@ -60,13 +64,15 @@ body {
   #section1 {padding-top:50px;height:900px;color: #fff; background-color: #1E88E5;}
   #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
   #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section42 {padding-top:50px;height:100px;color: #fff; background-color: #009688;}
+  #section4 {padding-top:30px;height:200px;color: black; background-color: #b98be9;}
+  #section5 {padding-top:30px;height:800px;color: black; background-color: #b98be9;}
+
 
 }
 
-h1 {
-	width: 100px;
+
+	
+
 }
 
 .pagination{
