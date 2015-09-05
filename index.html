@@ -9,9 +9,146 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/stlye.js" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Condensed:300italic,400italic,700italic,400,300,700|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href=<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lato:100,400,900' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
   </head>
-  <body>
+  <body> 
+
+<div class="container">
+  
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-default btn-lg" id="myBtn">Sign Up</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:20px 30px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-film"></span> Sign Up</h4>
+        </div>
+
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Atleast 8 characters">
+            </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-envelope"></span> Email</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+             <a href="myprofile.html" button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+          </form>
+        </div>
+          </div>
+      </div>
+       </div> 
+</div>
+ 
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+
+
+<button type="button" class="btn btn-default btn-xs" aria-label="Right Align">
+  <span class="glyphicon glyphicon-log-in" aria-hidden="true">Sign in</span>
+
+</button>
+</div>
+     <label for="inputName">Name</label>
+  <input type="text" id="inputName" 
+    placeholder="Name">
+
+  <label class=for="inputEmail">Email</label>
+  <input type="email" id="inputEmail" 
+    placeholder="Email">
+</div>
+
+  <a href="myprofile.html" class="btn btn-default right-align" type="submit" value="submit" role="button">Submit</a>
+
+    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+   
+   
+    <form>
+  
+
+</form>
+
+
+<div id = "myCarousel" class = "carousel slide" data-ride="carousel">
+<ol class = "carousel-indicators">
+  <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+      <li data-target = "#myCarousel" data-slide-to = "1"></li>
+          <li data-target = "#myCarousel" data-slide-to = "2"></li>
+             <li data-target = "#myCarousel" data-slide-to = "3"></li>
+               <li data-target = "#myCarousel" data-slide-to = "4"></li>
+             </ol>
+
+             <div class = "carousel-inner" role="listbox">
+
+
+
+             <div class = "item active">
+              <img src = "img/film.jpg" alt = "a" class = "img-responsive">
+            <div class = "carousel-caption">
+              </div>
+          </div>
+
+             
+             <div class = "item">
+              <img src = "img/film5.jpg" alt = "b" class = "img-responsive">
+            </div>
+
+  
+             <div class = "item">
+              <img src = "img/film3.jpg" alt = "c" class = "img-responsive">
+            </div>
+
+            
+             <div class = "item">
+              <img src = "img/film4.jpg" alt = "d" class = "img-responsive">
+            </div>
+
+          
+             <div class = "item">
+              <img src = "img/film6.jpg" alt = "e" class = "img-responsive">
+            </div>
+
+            <a class ="carousel-control left" href ="#myCarousel" data-slide ="prev">
+              <span class = "icon-prev"></span>
+
+
+            <a class ="carousel-control right" href ="#myCarousel" data-slide ="next">
+              <span class = "icon-next"></span>
+
+            </a>
+      
+</div>
+ </div>
+</div>
+    
+     
+
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
  <div id="section0" class="container-fluid">
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -30,110 +167,52 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Home</a></li>
         <li><a href="#section1">Photofeed</a></li>
-        <li><a href="#section2">About</a></li>
+        <li><a href="#section3">About</a></li>
+        <li><a href="#section4">Contact</a></li>   
+        <li><a href="#section5"></a></li> 
         
-        <li><a href="#section4">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
   
 </div>
-  
-<div id = "myCarousel" class = "carousel slide" data-ride="carousel" >
-
-<ol class = "carousel-indicators">
-  <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
-      <li data-target = "#myCarousel" data-slide-to = "1"></li>
-          <li data-target = "#myCarousel" data-slide-to = "2"></li>
-             <li data-target = "#myCarousel" data-slide-to = "3"></li>
-               <li data-target = "#myCarousel" data-slide-to = "4"></li>
-             </ol>
-
-             <div class = "carousel-inner" role="listbox">
+<h2 style="text-align:center">Passionate Photographers sharing their work</h2>
+ 
+ <p> </p>
 
 
-             <div class = "item active">
-              <img src = "img/a.jpg" alt = "a" class = "img-responsive">
-            <div class = "carousel-caption">
-              <h1 style="text-align:center">Photo Passion</h1>
-
-              <h3>welcome</h3>
-              <p>Do you have a passion for photography? Join us for free today and get amongst other passionate photographers just like you and build a portfolio through easy run competitions or other works. Share or private, photopassion is for you </p>
-               <button type="button" class="btn btn-default" aria-label="Left Align">
-  <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
-  <h4>Sign up or Sign in </h4>
-</button>
-              <form>
-  <label for="inputName">Name</label>
-  <input type="text" id="inputName" 
-    placeholder="Name">
-
-  <label class=for="inputEmail">Email</label>
-  <input type="email" id="inputEmail" 
-    placeholder="Email">
-
-
-  <a href="myprofile.html" class="btn btn-default" type="submit" value="submit" role="button">Submit</a>
-
-</form>
-</section>
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-            </div>
-          </div>
-
-             
-             <div class = "item">
-              <img src = "img/b.jpg" alt = "b" class = "img-responsive">
-            </div>
-
-  
-             <div class = "item">
-              <img src = "img/c.jpg" alt = "c" class = "img-responsive">
-            </div>
-
-            
-             <div class = "item">
-              <img src = "img/d.jpg" alt = "d" class = "img-responsive">
-            </div>
-
-          
-             <div class = "item">
-              <img src = "img/e.jpg" alt = "e" class = "img-responsive">
-            </div>
-
-            <a class ="carousel-control left" href ="#myCarousel" data-slide ="prev">
-              <span class = "icon-prev"></span>
-
-
-            <a class ="carousel-control right" href ="#myCarousel" data-slide ="next">
-              <span class = "icon-next"></span>
-
-            </a>
-      
+<p2 <p class="text-muted text-align:center" span class="glyphicon glyphicon-copyright-mark">  PhotoPassion // 2015  // All rights reserved // ITC Design</p2>
+ 
+<div id="section1" class="container-fluid">
+  <h1 style="text-align:center">Welcome</h1>
+   &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+              <p style="text-align:center">Do you have a passion for photography? Do you love taking photos, but feel alone? Join us for free today and get amongst other passionate photographers just like you and build a portfolio from scratch or build from your own photos. There are easy run competitions to motivate you, Share it or be private, Photopassion is for you, Join today! </p></h4>
+               &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+  <div class="col-sm-4 col-xs-4">
+  <img class="img-responsive" src="img/9.jpg" alt="Chania" style="width:500px; height:300px">
 </div>
- </div>
+   <div class="col-sm-4 col-xs-4">
+  <img class="img-responsive" src="img/10.jpg" alt="Chania" style="width:500px; height:300px">
 </div>
-        
-
-  <div id="section1" class="container-fluid">
-  <h4 style="text-align:center">Do you have a passion for photography? Join us for free today and get amongst other passionate photographers just like you and build a portfolio through easy run competitions or other works. Share or private, photopassion is for</h4>
-  <div class="col-sm-4">
-  <img class="img-responsive" src="img/kj.jpg" alt="Chania" style="width:400px; height:5s00px">
-</div>
-   <div class="col-sm-4">
-  <img class="img-responsive" src="img/kj.jpg" alt="Chania" style="width:400px; height:5s00px">
-</div>
-   <div class="col-sm-4">
-  <img class="img-responsive" src="img/kj.jpg" alt="Chania" style="width:400px; height:5s00px">
+   <div class="col-sm-4 col-xs-4">
+  <img class="img-responsive" src="img/11.jpg" alt="Chania" style="width:500px; height:300px">
 </div>
 
-
+ <div class="col-sm-4 col-xs-4">
+  <img class="img-responsive" src="img/12.jpg" alt="Chania" style="width:500px; height:300px">
+</div>
+   <div class="col-sm-4 col-xs-4">
+  <img class="img-responsive" src="img/13.jpg" alt="Chania" style="width:500px; height:300px">
+</div>
+   <div class="col-sm-4 col-xs-4">
+  <img class="img-responsive" src="img/14.jpg" alt="Chania" style="width:500px; height:300px">
+</div>
 </div>
 </div>
 
 
-<div id="section2" class="container-fluid">
+<div id="section3" class="container-fluid">
   <h3 style="text-align:center">About us</h3>
   <div class="row">
   <div class="col-sm-4">We are a team of Passionate photographers and want you to join us. We are all about sharing and collobarating with people just like ourselves, to provide feedback and to enhance everyones photography skills</div>
@@ -141,20 +220,23 @@
   partake, or just simply look, become part of photopassion!</div>
   <div class="col-sm-4">There is a live feed to show the most popular works, the most recent, and previous winners, they take photos to help you and you can become part of this community, have your own account private or public its up to you, the more photos, the more collobarating the better the site will be and the more passionate photographers will join.</div>
 </div>
-  
-  </div>
-<div id="section3" class="container-fluid">
-  <h1 style="text-align:center">Get inspired or be the inspiritaion</h1>
- 
-  
-</div>
+ &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+  <div id="section3" class="container-fluid"></div>
+<h1 style="text-align:center">Get Inspired or be the Inspiration</h1>
+ &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+
+ &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+
+
 
 <div id="section4" class="container-fluid">
-  <p>2015. All rights reserved. Photopassion</p>
-  <p>Isabella TenCate</p>
-  <p>Contact us: </p>
-    <p>Email:Photopassion.hotmail.com</p>
-    <p>phone: 0273171778<p>
+
+  <p>Contact Us </p>
+
+  
+   <p>  <span class="glyphicon glyphicon-envelope"> Email:ItcDesign@]Webdesign.com</span>
+  
+        
 
  
 </div>
