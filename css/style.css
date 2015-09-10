@@ -4,6 +4,8 @@ background-color: black;
 color: white;
 margin: 25px;
 padding-top: 40px;
+font-size: 17px;
+padding-bottom: 30px;
 
    
 }
@@ -131,9 +133,12 @@ body {
   #section2 {padding-top:20px;height:300px;color: white; background-color: black;}
   #section3 {padding-top:10px;height:20px;color: white; background-color: white;}
   #section5 {padding-top:10px;height:20px;color: white; background-color: white;}
-  #section4 {padding-top:30px;height:20px; color: white; background-color: white;}
+  #section4 {padding-top:20px;height:20px; color: white; background-color: white;}
   }
-
+.margin {
+  
+  margin-top: 10px
+  }
 
 
 
