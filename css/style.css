@@ -1,9 +1,9 @@
 body {
-font-family: font-family: 'Lato', sans-serif;
+font-family:'Lato', sans-serif;
 background-color: black;
 color: white;
 margin: 25px;
-padding-top: 30px;
+padding-top: 40px;
 
    
 }
@@ -131,7 +131,7 @@ body {
   #section2 {padding-top:20px;height:300px;color: white; background-color: black;}
   #section3 {padding-top:10px;height:20px;color: white; background-color: white;}
   #section5 {padding-top:10px;height:20px;color: white; background-color: white;}
-  #section4 {padding-top:30px;height:300px; color: white; background-color: grey;}
+  #section4 {padding-top:30px;height:20px; color: white; background-color: white;}
   }
 
 
@@ -194,6 +194,14 @@ header .navbar-default .navbar-nav .active a:hover {
 
   h2
    {
-  font-size: 50px;
+  font-size: 65px;
   font-family: 'Kaushan Script', cursive;
 }
+
+
+
+
+
+
+
+

@@ -17,48 +17,54 @@
 
   </head>
   <body> 
+    </div>
 
-<div class="container">
+</script>
+
+</div>
+
+
+</div>
+
+ <div class="container">
+  <div style="float:right">
+  <button type="button" class="btn btn-default btn-default" id="myBtn">Don't have an account? &nbsp &nbsp Sign Up!</button>
   
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-default btn-lg" id="myBtn">Sign Up</button>
-
-  <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
-      <!-- Modal content-->
+    
       <div class="modal-content">
-        <div class="modal-header" style="padding:20px 30px;">
+        <div class="modal-header" style="padding:35px 50px;">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
+
           <h4><span class="glyphicon glyphicon-film"></span> Sign Up</h4>
         </div>
-
         <div class="modal-body" style="padding:40px 50px;">
           <form role="form">
             <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Atleast 8 characters">
+              <label for="username"><span class="glyphicon glyphicon-user"></span> Name</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter Full Name">
             </div>
-        <div class="modal-body" style="padding:40px 50px;">
           <form role="form">
             <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-envelope"></span> Email</label>
+              <label for="username"><span class="glyphicon glyphicon-envelope"></span> Email</label>
               <input type="text" class="form-control" id="usrname" placeholder="Enter email">
             </div>
             <div class="form-group">
               <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
               <input type="text" class="form-control" id="psw" placeholder="Enter password">
             </div>
-            <div class="checkbox">
-              <label><input type="checkbox" value="" checked>Remember me</label>
-            </div>
-             <a href="myprofile.html" button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+            
+              
+              <a class="btn btn-succss btn-block" href="myprofile.html">Log in</a><span class="glyphicon glyphicon-off"></span>  
           </form>
         </div>
-          </div>
+        
       </div>
-       </div> 
+      
+    </div>
+  </div> 
 </div>
  
 <script>
@@ -70,29 +76,27 @@ $(document).ready(function(){
 </script>
 
 
-<button type="button" class="btn btn-default btn-xs" aria-label="Right Align">
-  <span class="glyphicon glyphicon-log-in" aria-hidden="true">Sign in</span>
-
-</button>
-</div>
-     <label for="inputName">Name</label>
-  <input type="text" id="inputName" 
-    placeholder="Name">
-
-  <label class=for="inputEmail">Email</label>
-  <input type="email" id="inputEmail" 
-    placeholder="Email">
-</div>
-
-  <a href="myprofile.html" class="btn btn-default right-align" type="submit" value="submit" role="button">Submit</a>
-
-    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
    
-   
-    <form>
-  
+    <div class="container">
+    <div style="float:left"
+  <form class="form-inline" role="form">
+    <div class="form-group">
+      <label for="email">Log In</label>
+      <input type="email" class="form-control" id="email" placeholder="Username or Email">
+    </div>
 
-</form>
+    <div class="form-group">
+      <label for="pwd"></label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+
+    </div>
+     
+<a class="btn" href="myprofile.html">Submit</a>
+  </form>
+</div>
+
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 
 
 <div id = "myCarousel" class = "carousel slide" data-ride="carousel">
@@ -109,7 +113,7 @@ $(document).ready(function(){
 
 
              <div class = "item active">
-              <img src = "img/film.jpg" alt = "a" class = "img-responsive">
+              <img src = "img/film.jpg" alt = "a" class = "img-responsive" >
             <div class = "carousel-caption">
               </div>
           </div>
@@ -166,7 +170,7 @@ $(document).ready(function(){
 
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#section1">Photofeed</a></li>
+        <li><a href="#section1">Welcome</a></li>
         <li><a href="#section3">About</a></li>
         <li><a href="#section4">Contact</a></li>   
         <li><a href="#section5"></a></li> 
@@ -177,9 +181,11 @@ $(document).ready(function(){
 </nav>
   
 </div>
+
+  
 <h2 style="text-align:center">Passionate Photographers sharing their work</h2>
  
- <p> </p>
+
 
 
 <p2 <p class="text-muted text-align:center" span class="glyphicon glyphicon-copyright-mark">  PhotoPassion // 2015  // All rights reserved // ITC Design</p2>
@@ -189,30 +195,33 @@ $(document).ready(function(){
    &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
               <p style="text-align:center">Do you have a passion for photography? Do you love taking photos, but feel alone? Join us for free today and get amongst other passionate photographers just like you and build a portfolio from scratch or build from your own photos. There are easy run competitions to motivate you, Share it or be private, Photopassion is for you, Join today! </p></h4>
                &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
-  <div class="col-sm-4 col-xs-4">
-  <img class="img-responsive" src="img/9.jpg" alt="Chania" style="width:500px; height:300px">
+  <div class="col-sm-4 col-xs-6">
+  <img class="img-responsive" src="img/9.jpg" alt="Chania" >
 </div>
-   <div class="col-sm-4 col-xs-4">
-  <img class="img-responsive" src="img/10.jpg" alt="Chania" style="width:500px; height:300px">
+   <div class="col-sm-4  col-xs-6">
+  <img class="img-responsive" src="img/10.jpg" alt="Chania" >
 </div>
-   <div class="col-sm-4 col-xs-4">
-  <img class="img-responsive" src="img/11.jpg" alt="Chania" style="width:500px; height:300px">
-</div>
-
- <div class="col-sm-4 col-xs-4">
-  <img class="img-responsive" src="img/12.jpg" alt="Chania" style="width:500px; height:300px">
-</div>
-   <div class="col-sm-4 col-xs-4">
-  <img class="img-responsive" src="img/13.jpg" alt="Chania" style="width:500px; height:300px">
-</div>
-   <div class="col-sm-4 col-xs-4">
-  <img class="img-responsive" src="img/14.jpg" alt="Chania" style="width:500px; height:300px">
-</div>
-</div>
+   <div class="col-sm-4 col-xs-6">
+  <img class="img-responsive" src="img/11.jpg" alt="Chania" >
 </div>
 
+ <div class="col-sm-4  col-xs-6">
+  <img class="img-responsive" src="img/12.jpg" alt="Chania" >
+</div>
+   <div class="col-sm-4   col-xs-6">
+  <img class="img-responsive" src="img/13.jpg" alt="Chania" >
+</div>
+
+   <div class="col-sm-4   col-xs-6">
+  <img class="img-responsive" src="img/14.jpg" alt="Chania" >
+</div>
+</div>
+</div>
+</div>
 
 <div id="section3" class="container-fluid">
+   &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
+   
   <h3 style="text-align:center">About us</h3>
   <div class="row">
   <div class="col-sm-4">We are a team of Passionate photographers and want you to join us. We are all about sharing and collobarating with people just like ourselves, to provide feedback and to enhance everyones photography skills</div>
@@ -234,7 +243,8 @@ $(document).ready(function(){
   <p>Contact Us </p>
 
   
-   <p>  <span class="glyphicon glyphicon-envelope"> Email:ItcDesign@]Webdesign.com</span>
+   <p>  <span class="glyphicon glyphicon-envelope"> Email: PhotoPassion@gmail.com</span>
+    
   
         
 
